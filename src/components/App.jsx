@@ -1,13 +1,17 @@
 import React from 'react';
-
+import Header from './Header/Header';
+import Footer from './Footer';
+import Home from './Home/Home';
 import { Switch, Route } from 'react-router-dom';
-
-
 
 function App(){
   return (
     <div>
-      app works
+      <Header />
+      <Switch>
+        <Route exact path='/' component={Home} />
+      </Switch>
+      <Footer />
     </div>
   );
 }
