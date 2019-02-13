@@ -1,6 +1,6 @@
 import React from 'react';
-
-import {Button, Icon} from 'react-materialize';
+import PropTypes from 'prop-types';
+import {Button} from 'react-materialize';
 
 const buttonStyle = {
   marginTop: '250px',
@@ -11,7 +11,11 @@ const buttonStyle = {
 
 };
 
-function Banner(){
+function Banner(props){
+  let button;
+  if (props.button == 'true') {
+    button = <Button waves='light' className='red' style={buttonStyle}>SHOP NOW</Button>
+  }
   return (
     <div className='test'>
         <style jsx>{`
@@ -22,11 +26,15 @@ function Banner(){
             text-align: center;
           }
         `}</style>
-      <Button waves='light' className='red' style={buttonStyle}>
-        SHOP NOW
-      </Button>
+        <h1>{props.text}</h1>
+      {button}
     </div>
   );
 }
+
+Banner.propTypes = {
+  text: PropTypes.string.isRequired,
+  button: PropTypes.string.isRequired,
+};
 
 export default Banner;

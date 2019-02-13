@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const mainStyle = {
   backgroundColor: '#ff4f00',
@@ -9,7 +10,8 @@ const mainStyle = {
 function Main(){
   return (
     <div style={mainStyle}>
-      <button></button>
+      <Link to="/">Tazo</Link>
+      <Link to="/our-story">Our Story</Link>
       this is main
     </div>
   );

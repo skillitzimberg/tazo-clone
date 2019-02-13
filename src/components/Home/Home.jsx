@@ -6,7 +6,7 @@ function Home(){
   return (
     <div>
     this is Home
-      <Banner />
+      <Banner text={'BREW THE UNEXPECTED'} button={'true'}/>
       <Explore />
     </div>
   );
