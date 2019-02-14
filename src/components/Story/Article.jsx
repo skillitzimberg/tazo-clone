@@ -12,7 +12,7 @@ function Article(props){
       <div className='articleText'>
         <img src={props.image} style={img}/>
         <h1>{props.title}</h1>
-        <p>{props.text}</p>
+        {props.text}
       </div>
     </div>
   );
@@ -20,7 +20,7 @@ function Article(props){
 
 Article.propTypes = {
   title: PropTypes.string.isRequired,
-  text: PropTypes.string.isRequired,
+  text: PropTypes.object.isRequired,
   image: PropTypes.string.isRequired
 };
 

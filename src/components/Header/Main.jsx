@@ -16,7 +16,7 @@ const linkStyle = {
   textDecoration: 'none',
   fontFamily: 'proxima-nova,verdana,Arial,sans-serif',
   fontWeight: '500',
-  margin: '10',
+  margin: '10px',
 };
 
 function Main(){

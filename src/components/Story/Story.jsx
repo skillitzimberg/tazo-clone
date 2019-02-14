@@ -42,10 +42,14 @@ function Story(){
       <Banner text={''} button={''}/>
       <div style={center}>
         <Article
-          title={article1[0].title} text={article1[0].text} image={article1[0].image} />
+          title={article1[0].title}
+          text={article1[0].text}
+          image={article1[0].image} />
 
         <Article
-          title={article1[1].title} text={article1[1].text} image={article1[1].image} />
+          title={article1[1].title}
+          text={article1[1].text}
+          image={article1[1].image} />
       </div>
     </div>
   );

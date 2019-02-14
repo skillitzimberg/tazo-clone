@@ -12,7 +12,7 @@ function Category(){
             float: left;
             margin: 20px;
           }
-          
+
           p {
             height: 50px;
             background-color: #ff4f00;
@@ -23,6 +23,7 @@ function Category(){
 
         `}</style>
       <p type="submit">Category</p>
+
     </div>
   );
 }

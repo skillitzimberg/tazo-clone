@@ -1,5 +1,6 @@
 import React from 'react';
-import Category from './Category';
+import Category2 from './Category2';
+
 
 function Explore(){
   return (
@@ -21,12 +22,12 @@ function Explore(){
         <h2>EXPLORE</h2>
         <h1>OUR UNEXPECTED BLENDS</h1>
       </div>
-        
+
       <div className='parent'>
-        <Category />
-        <Category />
-        <Category />
-        <Category />
+        <Category2 />
+        <Category2 />
+        <Category2 />
+        <Category2 />
       </div>
     </div>
   );
