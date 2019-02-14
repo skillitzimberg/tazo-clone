@@ -4,7 +4,7 @@ import React from 'react';
 function Button(){
   return (
     <div>
-        <style jsx>{`
+      <style jsx>{`
           button {
             width: 100px;
             height: 40px;

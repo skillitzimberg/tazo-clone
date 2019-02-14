@@ -4,7 +4,7 @@ import React from 'react';
 function Footer(){
   return (
     <div>
-        <style jsx>{`
+      <style jsx>{`
           div {
             height: 400px;
             border: 1px solid #333;

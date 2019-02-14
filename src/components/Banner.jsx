@@ -14,11 +14,11 @@ const buttonStyle = {
 function Banner(props){
   let button;
   if (props.button == 'true') {
-    button = <Button waves='light' className='red' style={buttonStyle}>SHOP NOW</Button>
+    button = <Button waves='light' className='red' style={buttonStyle}>SHOP NOW</Button>;
   }
   return (
     <div className='test'>
-        <style jsx>{`
+      <style jsx>{`
           .test {
             background-image: url("https://images.unsplash.com/photo-1461595520627-42e3c83019bc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
             background-size: cover;
@@ -26,7 +26,7 @@ function Banner(props){
             text-align: center;
           }
         `}</style>
-        <h1>{props.text}</h1>
+      <h1>{props.text}</h1>
       {button}
     </div>
   );

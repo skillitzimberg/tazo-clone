@@ -9,7 +9,6 @@ const topStyle = {
 function Top(){
   return (
     <div style={topStyle}>
-      this is top
     </div>
   );
 }
